@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD7DECBF2A4C8F760027E0D3 /* bookShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DECBE2A4C8F760027E0D3 /* bookShelf.swift */; };
+		BD7DECC12A4C8F930027E0D3 /* notebooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DECC02A4C8F930027E0D3 /* notebooks.swift */; };
+		BD7DECC32A4C8FD30027E0D3 /* createNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DECC22A4C8FD30027E0D3 /* createNew.swift */; };
+		BD7DECC52A4C8FE10027E0D3 /* newBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DECC42A4C8FE10027E0D3 /* newBook.swift */; };
+		BD7DECC72A4C8FEF0027E0D3 /* newNotebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DECC62A4C8FEF0027E0D3 /* newNotebook.swift */; };
 		BD8E3FBC2A4B8FB40001451B /* wormdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8E3FBB2A4B8FB40001451B /* wormdApp.swift */; };
 		BD8E3FBE2A4B8FB40001451B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8E3FBD2A4B8FB40001451B /* ContentView.swift */; };
 		BD8E3FC02A4B8FB50001451B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8E3FBF2A4B8FB50001451B /* Assets.xcassets */; };
 		BD8E3FC32A4B8FB50001451B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8E3FC22A4B8FB50001451B /* Preview Assets.xcassets */; };
+		BDFE473C2A4CDA6E003BC54C /* BookObjectPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE473B2A4CDA6E003BC54C /* BookObjectPage.swift */; };
+		BDFE473E2A4CDB02003BC54C /* NotebookObjectPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE473D2A4CDB02003BC54C /* NotebookObjectPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD7DECBE2A4C8F760027E0D3 /* bookShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookShelf.swift; sourceTree = "<group>"; };
+		BD7DECC02A4C8F930027E0D3 /* notebooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notebooks.swift; sourceTree = "<group>"; };
+		BD7DECC22A4C8FD30027E0D3 /* createNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createNew.swift; sourceTree = "<group>"; };
+		BD7DECC42A4C8FE10027E0D3 /* newBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newBook.swift; sourceTree = "<group>"; };
+		BD7DECC62A4C8FEF0027E0D3 /* newNotebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newNotebook.swift; sourceTree = "<group>"; };
 		BD8E3FB82A4B8FB40001451B /* wormd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wormd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8E3FBB2A4B8FB40001451B /* wormdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wormdApp.swift; sourceTree = "<group>"; };
 		BD8E3FBD2A4B8FB40001451B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD8E3FBF2A4B8FB50001451B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8E3FC22A4B8FB50001451B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDFE473B2A4CDA6E003BC54C /* BookObjectPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookObjectPage.swift; sourceTree = "<group>"; };
+		BDFE473D2A4CDB02003BC54C /* NotebookObjectPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookObjectPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				BD8E3FBB2A4B8FB40001451B /* wormdApp.swift */,
 				BD8E3FBD2A4B8FB40001451B /* ContentView.swift */,
+				BD7DECBE2A4C8F760027E0D3 /* bookShelf.swift */,
+				BD7DECC02A4C8F930027E0D3 /* notebooks.swift */,
+				BD7DECC22A4C8FD30027E0D3 /* createNew.swift */,
+				BD7DECC42A4C8FE10027E0D3 /* newBook.swift */,
+				BD7DECC62A4C8FEF0027E0D3 /* newNotebook.swift */,
+				BDFE473B2A4CDA6E003BC54C /* BookObjectPage.swift */,
+				BDFE473D2A4CDB02003BC54C /* NotebookObjectPage.swift */,
 				BD8E3FBF2A4B8FB50001451B /* Assets.xcassets */,
 				BD8E3FC12A4B8FB50001451B /* Preview Content */,
 			);
@@ -138,7 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD8E3FBE2A4B8FB40001451B /* ContentView.swift in Sources */,
+				BD7DECC32A4C8FD30027E0D3 /* createNew.swift in Sources */,
+				BDFE473E2A4CDB02003BC54C /* NotebookObjectPage.swift in Sources */,
 				BD8E3FBC2A4B8FB40001451B /* wormdApp.swift in Sources */,
+				BD7DECC12A4C8F930027E0D3 /* notebooks.swift in Sources */,
+				BD7DECBF2A4C8F760027E0D3 /* bookShelf.swift in Sources */,
+				BD7DECC72A4C8FEF0027E0D3 /* newNotebook.swift in Sources */,
+				BDFE473C2A4CDA6E003BC54C /* BookObjectPage.swift in Sources */,
+				BD7DECC52A4C8FE10027E0D3 /* newBook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
