@@ -18,6 +18,7 @@
 		BD8E3FC32A4B8FB50001451B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8E3FC22A4B8FB50001451B /* Preview Assets.xcassets */; };
 		BDFE473C2A4CDA6E003BC54C /* BookObjectPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE473B2A4CDA6E003BC54C /* BookObjectPage.swift */; };
 		BDFE473E2A4CDB02003BC54C /* NotebookObjectPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE473D2A4CDB02003BC54C /* NotebookObjectPage.swift */; };
+		BDFE47402A4DD389003BC54C /* creators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE473F2A4DD389003BC54C /* creators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		BD8E3FC22A4B8FB50001451B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDFE473B2A4CDA6E003BC54C /* BookObjectPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookObjectPage.swift; sourceTree = "<group>"; };
 		BDFE473D2A4CDB02003BC54C /* NotebookObjectPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookObjectPage.swift; sourceTree = "<group>"; };
+		BDFE473F2A4DD389003BC54C /* creators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				BD8E3FBB2A4B8FB40001451B /* wormdApp.swift */,
 				BD8E3FBD2A4B8FB40001451B /* ContentView.swift */,
+				BDFE473F2A4DD389003BC54C /* creators.swift */,
 				BD7DECBE2A4C8F760027E0D3 /* bookShelf.swift */,
 				BD7DECC02A4C8F930027E0D3 /* notebooks.swift */,
 				BD7DECC22A4C8FD30027E0D3 /* createNew.swift */,
@@ -166,6 +169,7 @@
 				BD7DECBF2A4C8F760027E0D3 /* bookShelf.swift in Sources */,
 				BD7DECC72A4C8FEF0027E0D3 /* newNotebook.swift in Sources */,
 				BDFE473C2A4CDA6E003BC54C /* BookObjectPage.swift in Sources */,
+				BDFE47402A4DD389003BC54C /* creators.swift in Sources */,
 				BD7DECC52A4C8FE10027E0D3 /* newBook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

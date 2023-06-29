@@ -8,37 +8,65 @@
 import SwiftUI
 
 struct newBook: View {
-    /*
-     var _____ : String
-     var _____ : String
-     var _____ : String
-     */
+    
+    @State var bookTitle : String
+    @State var bookAuthor : String
+    @State var pageCount : String
+    @Binding var listBooks: [BookObject]
+     
     var body: some View {
+        NavigationStack {
         ZStack {
             Color(red: 224/255, green: 216/255, blue: 176/255)
               .ignoresSafeArea()
             
-            /*
-             NavigationStack {
+            
+             
              VStack{
-                 HStack {
-                     Text("                                 ")
-                     TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                 Text("Add New Book")
+                     .font(.largeTitle)
+                     .padding(.top, 300)
+                     .padding(.bottom, 50)
+                 
+                 Text("Title")
+                     .font(.largeTitle)
+                     .multilineTextAlignment(.leading)
+                     .padding(.trailing, 325)
+                     TextField("Type Here", text: $bookTitle)
+                         .font(.title)
+                         .multilineTextAlignment(.center)
+                         .padding(.bottom, 100)
+                         .padding(.leading, 25)
+                 
                      
-                 }
-                 HStack {
-                     Text("                                 ")
-                     TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                 Text("Author")
+                     .font(.largeTitle)
+                     .multilineTextAlignment(.leading)
+                     .padding(.trailing, 275)
+                     TextField("Type Here", text: $bookAuthor)
+                         .font(.title)
+                         .multilineTextAlignment(.center)
+                         .padding(.bottom, 100)
+                         .padding(.leading, 25)
+                 
+                Text("Page Count")
+                     .font(.largeTitle)
+                     .multilineTextAlignment(.leading)
+                     .padding(.trailing, 200)
+                     TextField("Type Here", text: $pageCount)
+                         .font(.title)
+                         .multilineTextAlignment(.center)
+                         .padding(.bottom, 400)
+                         .padding(.leading, 25)
                      
+                 NavigationLink(destination: bookShelf(Books: $listBooks)) {
+                     Text("Save")
                  }
-                 HStack {
-                     Text("                                 ")
-                     TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
-                     
-                 }
+                 .buttonStyle(.borderedProminent)
+                 
              }
          }
-        */
+        
             
         }
     }
@@ -46,6 +74,6 @@ struct newBook: View {
 
 struct newBook_Previews: PreviewProvider {
     static var previews: some View {
-        newBook()
+        newBook(bookTitle : "" , bookAuthor : "" , pageCount: "", listBooks : .constant([]))
     }
 }
