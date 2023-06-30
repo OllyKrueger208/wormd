@@ -53,9 +53,9 @@ struct ContentView: View {
                                 Text(" Bookshelf  ")
                             }
                             .padding(.top, 40.0)
-                            .foregroundColor(.black)
+                            .foregroundColor(Color(red: 0.12941176470588237, green: 0.2784313725490196, blue: 0.0392156862745098))
                             .buttonStyle(.borderedProminent)
-                            .accentColor(Color(red: 0.6666666666666666, green: 0.7490196078431373, blue: 0.49411764705882355))
+                            .accentColor(Color(red: 0.667, green: 0.7490196078431373, blue: 0.49411764705882355))
                             .fontWeight(.heavy)
                             .font(.largeTitle)
                             .navigationTitle(" ")
@@ -71,7 +71,7 @@ struct ContentView: View {
                         NavigationLink(destination: notebooks(noteBooks: $notebookList)) {
                                 Text(" Notebooks ")
                             }
-                            .foregroundColor(.black)
+                        .foregroundColor(Color(red: 0.12941176470588237, green: 0.2784313725490196, blue: 0.0392156862745098))
                             .buttonStyle(.borderedProminent)
                             .accentColor(Color(red: 0.5568627450980392, green: 0.6431372549019608, blue: 0.3764705882352941))
                             .fontWeight(.heavy)
@@ -82,7 +82,7 @@ struct ContentView: View {
                         NavigationLink(destination: createNew(notebookList: $notebookList, listBooks: $listBooks )) {
                                 Text("Create New")
                             }
-                            .foregroundColor(.black)
+                        .foregroundColor(Color(red: 0.12941176470588237, green: 0.2784313725490196, blue: 0.0392156862745098))
                             .buttonStyle(.borderedProminent)
                             .accentColor(Color(red: 0.5568627450980392, green: 0.615686274509804, blue: 0.43529411764705883))
                             .fontWeight(.heavy)
